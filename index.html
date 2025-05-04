@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belle Époque - Salão de Beleza Feminino</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-soft">
+    <!-- Header/Navigation -->
+    <header class="nav">
+        <div class="container">
+            <div class="nav-wrap">
+                <div class="logo">
+                    <a href="#" class="brand">Belle Époque</a>
+                </div>
+
+                <div class="menu">
+                    <a href="#home" class="link">Home</a>
+                    <a href="#services" class="link">Serviços</a>
+                    <a href="#about" class="link">Sobre</a>
+                    <a href="#team" class="link">Equipe</a>
+                    <a href="#testimonials" class="link">Depoimentos</a>
+                    <a href="#contact" class="link">Contato</a>
+                </div>
+
+                <!-- Menu Toggle Button -->
+                <button class="toggle" id="menu-btn" title="Abrir menu">
+                    <i class="menu-icon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mob" id="mobile-menu">
+                <div class="mob-wrap">
+                    <a href="#home" class="link">Home</a>
+                    <a href="#services" class="link">Serviços</a>
+                    <a href="#about" class="link">Sobre</a>
+                    <a href="#team" class="link">Equipe</a>
+                    <a href="#testimonials" class="link">Depoimentos</a>
+                    <a href="#contact" class="link">Contato</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1 class="main-title">Sua Beleza, Nossa Paixão</h1>
+            <p class="main-desc">Bem-vinda ao Belle Époque, onde a arte da beleza encontra o luxo e o conforto em um só
+                lugar.</p>
+            <div class="btn-group">
+                <a href="#booking" class="btn-primary">Agendar Horário</a>
+                <a href="#services" class="btn-outline">Nossos Serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="sec">
+        <div class="container">
+            <div class="sec-header">
+                <h2 class="sec-title">Nossos Serviços</h2>
+                <div class="divider"></div>
+                <p class="sec-desc">Descubra nossa gama exclusiva de serviços de beleza, cuidadosamente desenvolvidos
+                    para você.</p>
+            </div>
+
+            <!-- Grids de Serviços e outros -->
+            <div class="cards-grid">
+                <!-- Service Cards -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 class="card-title">Cortes & Coloração</h3>
+                    <p class="card-desc">Transformação completa com técnicas exclusivas de corte e coloração, incluindo
+                        mechas, balayage e coloração orgânica.</p>
+                    <a href="#booking" class="card-link">A partir de R$150 →</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="card-title">Spa Facial</h3>
+                    <p class="card-desc">Tratamentos faciais com produtos importados, incluindo limpeza profunda,
+                        máscaras LED e microagulhamento.</p>
+                    <a href="#booking" class="card-link">A partir de R$280 →</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="card-title">Nail Design</h3>
+                    <p class="card-desc">Manicure e pedicure com as últimas tendências em nail art, esmaltação em gel e
+                        alongamentos em fibra.</p>
+                    <a href="#booking" class="card-link">A partir de R$90 →</a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="card-title">Design de Sobrancelhas</h3>
+                    <p class="card-desc">Microblading, design com henna e laminação de sobrancelhas para um olhar
+                        marcante.</p>
+                    <a href="#booking" class="card-link">A partir de R$120 →</a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3 class="card-title">Make Premium</h3>
+                    <p class="card-desc">Maquiagem profissional para eventos, com produtos premium e técnicas exclusivas
+                        de contorno e iluminação.</p>
+                    <a href="#booking" class="card-link">A partir de R$200 →</a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-air-freshener"></i>
+                    </div>
+                    <h3 class="card-title">Day Spa</h3>
+                    <p class="card-desc">Pacote completo de relaxamento com massagem, hidratação corporal e
+                        aromaterapia.</p>
+                    <a href="#booking" class="card-link">A partir de R$350 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="sec bg-soft">
+        <div class="container">
+            <div class="about-wrap">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1" alt="Salão Belle Époque"
+                        class="about-img">
+                </div>
+                <div class="about-content">
+                    <h2 class="sec-title">Nossa História</h2>
+                    <div class="divider"></div>
+                    <p class="sec-desc">Desde 2015, o Belle Époque tem sido sinônimo de excelência em beleza nos
+                        Jardins. Nossa jornada começou com um sonho de criar um espaço onde cada cliente pudesse se
+                        sentir única e especial.</p>
+                    <p class="sec-desc">Com mais de 5.000 clientes atendidas e diversos prêmios de excelência, nos
+                        orgulhamos em oferecer um serviço personalizado e resultados excepcionais.</p>
+                    <p class="sec-desc mb-8">Nossa filosofia é baseada na combinação perfeita entre tecnologia avançada
+                        e produtos orgânicos premium, sempre respeitando a natureza única de cada pessoa.</p>
+                    <div class="feat-grid">
+                        <div class="feat">
+                            <div class="feat-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="feat-text">Equipe Premium</span>
+                        </div>
+                        <div class="feat">
+                            <div class="feat-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="feat-text">Produtos Importados</span>
+                        </div>
+                        <div class="feat">
+                            <div class="feat-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="feat-text">Biossegurança</span>
+                        </div>
+                        <div class="feat">
+                            <div class="feat-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="feat-text">Luxo & Conforto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="sec">
+        <div class="container">
+            <div class="sec-header">
+                <h2 class="sec-title">Nossa Equipe</h2>
+                <div class="divider"></div>
+                <p class="sec-desc">Conheça os profissionais que fazem do Belle Époque um lugar especial.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Team Member 1 -->
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Equipe Belle Époque" class="profile">
+                    <h3 class="card-title">Ana Silva</h3>
+                    <p class="card-desc">Especialista em cortes de cabelo e coloração, com mais de 10 anos de
+                        experiência no mercado.</p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1672334117572-3cee2be142f3?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Equipe Belle Époque" class="profile">
+                    <h3 class="card-title">Mariana Costa</h3>
+                    <p class="card-desc">Especialista em tratamentos faciais e design de sobrancelhas, com formação
+                        internacional.</p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1655970580622-4a547789c850?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Equipe Belle Époque" class="profile">
+                    <h3 class="card-title">Carlos Pereira</h3>
+                    <p class="card-desc">Especialista em massagens relaxantes e terapêuticas, com mais de 15 anos de
+                        experiência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="sec bg-soft">
+        <div class="container">
+            <div class="sec-header">
+                <h2 class="sec-title">Depoimentos</h2>
+                <div class="divider"></div>
+                <p class="sec-desc">Veja o que nossos clientes têm a dizer sobre nós.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Testimonial 1 -->
+                <div class="card">
+                    <p class="card-desc">"A equipe do Belle Époque é incrível! Sempre saio de lá me sentindo renovada e
+                        linda."</p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1667100225001-a1b298da7cb5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cliente Belle Époque" class="client-img">
+                        <div class="client-info">
+                            <h4 class="client-name">Juliana Souza</h4>
+                            <p class="client-role">Cliente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card">
+                    <p class="card-desc">"Os tratamentos faciais são maravilhosos! Minha pele nunca esteve tão bonita."
+                    </p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1662577066108-4bb081e818b2?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cliente Belle Époque" class="client-img">
+                        <div class="client-info">
+                            <h4 class="client-name">Fernanda Lima</h4>
+                            <p class="client-role">Cliente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card">
+                    <p class="card-desc">"Adoro fazer minhas unhas no Belle Époque. O atendimento é excelente e os
+                        produtos são de alta qualidade."</p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1638204958375-4824be216720?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cliente Belle Époque" class="client-img">
+                        <div class="client-info">
+                            <h4 class="client-name">Mariana Oliveira</h4>
+                            <p class="client-role">Cliente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="sec">
+        <div class="container">
+            <div class="sec-header">
+                <h2 class="sec-title">Agende Seu Horário</h2>
+                <div class="divider"></div>
+                <p class="sec-desc">Preencha o formulário abaixo para agendar seu horário conosco.</p>
+            </div>
+
+            <form class="form">
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="name" class="label">Nome</label>
+                        <input type="text" id="name" name="name" class="input" required>
+                    </div>
+                    <div class="field">
+                        <label for="email" class="label">Email</label>
+                        <input type="email" id="email" name="email" class="input" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="service" class="label">Serviço</label>
+                    <select id="service" name="service" class="input" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="corte">Corte de Cabelo</option>
+                        <option value="tratamento-facial">Tratamento Facial</option>
+                        <option value="manicure-pedicure">Manicure & Pedicure</option>
+                        <option value="design-sobrancelhas">Design de Sobrancelhas</option>
+                        <option value="maquiagem">Maquiagem Profissional</option>
+                        <option value="massagem">Massagem Relaxante</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="date" class="label">Data</label>
+                    <input type="date" id="date" name="date" class="input" required>
+                </div>
+                <div class="field">
+                    <label for="time" class="label">Horário</label>
+                    <input type="time" id="time" name="time" class="input" required>
+                </div>
+                <div class="form-footer">
+                    <button type="submit" class="btn-primary">Agendar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="sec bg-soft">
+        <div class="container">
+            <div class="sec-header">
+                <h2 class="sec-title">Contato</h2>
+                <div class="divider"></div>
+                <p class="sec-desc">Entre em contato conosco para mais informações ou para agendar um horário.</p>
+            </div>
+
+            <form class="form">
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="contact-name" class="label">Nome</label>
+                        <input type="text" id="contact-name" name="name" class="input" required>
+                    </div>
+                    <div class="field">
+                        <label for="contact-email" class="label">Email</label>
+                        <input type="email" id="contact-email" name="email" class="input" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="message" class="label">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" class="input" required></textarea>
+                </div>
+                <div class="form-footer">
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.075426745291!2d-46.6534269246876!3d-23.56573436184334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1689874092279!5m2!1spt-BR!2sbr"
+            class="map-iframe" allowfullscreen="" loading="lazy"
+            title="Mapa mostrando a localização do Belle Époque"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <!-- Info -->
+                <div class="footer-info">
+                    <h3 class="footer-title">Belle Époque</h3>
+                    <p class="footer-desc">Transformando sua rotina de cuidados em momentos únicos de beleza e bem-estar.</p>
+                    <div class="social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links Rápidos -->
+                <div class="footer-nav">
+                    <h4 class="footer-subtitle">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i>Home</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>Serviços</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i>Sobre</a></li>
+                        <li><a href="#team"><i class="fas fa-chevron-right"></i>Equipe</a></li>
+                        <li><a href="#booking"><i class="fas fa-chevron-right"></i>Agendar</a></li>
+                    </ul>
+                </div>
+
+                <!-- Serviços -->
+                <div class="footer-services">
+                    <h4 class="footer-subtitle">Nossos Serviços</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-scissors"></i>Cortes & Coloração</li>
+                        <li><i class="fas fa-spa"></i>Spa Facial</li>
+                        <li><i class="fas fa-paint-brush"></i>Nail Design</li>
+                        <li><i class="fas fa-eye"></i>Design de Sobrancelhas</li>
+                        <li><i class="fas fa-magic"></i>Make Premium</li>
+                    </ul>
+                </div>
+
+                <!-- Contato -->
+                <div class="footer-contact">
+                    <h4 class="footer-subtitle">Contato</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i>Av. Paulista, 1000 - São Paulo</li>
+                        <li><i class="fas fa-phone"></i>(11) 9999-9999</li>
+                        <li><i class="fas fa-envelope"></i>contato@belleepoque.com</li>
+                        <li><i class="fas fa-clock"></i>Seg - Sáb: 9h às 20h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Belle Époque. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <span class="separator"></span>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="top-btn" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
